@@ -1,34 +1,35 @@
-# 🔍 Whodunit? — Online Bookstore
+# 🔍 Whodunit? — Интернет-магазин книг
 
-**Whodunit?** is a full-featured e-commerce web application designed for mystery, thriller, and crime fiction lovers. The platform offers a curated selection of books, user authentication, shopping cart functionality, and a seamless checkout experience.
+**Whodunit?** — это полнофункциональное веб-приложение для интернет-торговли, созданное для любителей детективов, триллеров и криминальной литературы. Платформа предлагает курируемую коллекцию книг, аутентификацию пользователей, функционал корзины покупок и удобный процесс оформления заказа.
 
-Built with **React** on the frontend, **Django** as the backend API, and **PostgreSQL** for data storage, this project demonstrates modern full-stack development practices including RESTful API design, responsive UI, and secure payment processing.
-
----
-
-## ✨ Features
-
-- 📚 **Curated Catalog** — Browse mystery books by genre, author, or featured collections
-- 🔎 **Search & Filter** — Find books by title, author, or subgenre (cozy, noir, psychological thriller, historical mystery, etc.)
-- 🛒 **Shopping Cart** — Add, remove, and update quantities before checkout
-- 👤 **User Authentication** — JWT-based authentication with sign up, login, and profile management
-- 📦 **Order History** — View past orders and track current orders
-- ⭐ **Reviews & Ratings** — Leave reviews and see community ratings for books
-- 🛡️ **Admin Panel** — Django admin interface for managing books, orders, and users
-- 📱 **Responsive Design** — Fully responsive UI built with Tailwind CSS / CSS Modules
-- 💳 **Secure Checkout** — Integrated with Stripe for payment processing
+Проект реализован с использованием **React** на фронтенде, **Django** в качестве бэкенд-API и **PostgreSQL** для хранения данных. Он демонстрирует современные практики full-stack разработки, включая адаптивный интерфейс и гибкую обработку авторизации/регистрации.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Возможности
 
-| Layer       | Technologies |
-|-------------|--------------|
-| Frontend    | React, React Router, Axios, Tailwind CSS |
-| Backend     | Django, Django REST Framework, Simple JWT |
-| Database    | PostgreSQL |
-| Version Control | Git & GitHub |
+- 📚 **Курируемый каталог** — просмотр книг по жанрам, авторам или тематическим подборкам
+- 🔎 **Поиск и фильтрация** — поиск книг по названию, автору или поджанру (уютный детектив, нуар, психологический триллер, исторический детектив и др.)
+- 🛒 **Корзина покупок** — добавление, удаление и изменение количества товаров перед оформлением заказа
+- 👤 **Аутентификация пользователей** — JWT-аутентификация с регистрацией, входом и управлением профилем
+- 📦 **История заказов** — просмотр прошлых заказов и отслеживание текущих
+- ⭐ **Отзывы и рейтинги** — возможность оставлять отзывы и видеть оценки книг от других читателей
+- 🛡️ **Админ-панель** — интерфейс Django admin для управления книгами, заказами и пользователями
+- 📱 **Адаптивный дизайн** — полностью адаптивный интерфейс, построенный на Tailwind CSS
 
-```bash
-git clone https://github.com/yourusername/whodunit-bookstore.git
-cd whodunit-bookstore
+---
+
+## 🤝 Участники проекта
+
+- [chillb0neeeee](https://github.com/chillb0neeeee) — разработка и поддержка проекта
+
+---
+
+## 🛠️ Технологический стек
+
+| Слой         | Технологии |
+|--------------|------------|
+| Фронтенд     | React, Tailwind CSS |
+| Бэкенд       | Django |
+| База данных  | PostgreSQL |
+| Контроль версий | Git & GitHub |
